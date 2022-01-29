@@ -7,7 +7,7 @@ services:
       MYSQL_ROOT_PASSWORD: T123456t
       MYSQL_USER: admin
       MYSQL_PASSWORD: tomas8199
-      MYSQL_DATABASE: bookstore_db
+      MYSQL_DATABASE: phonebook_db
     volumes:
       - db-data:/var/lib/mysql
     configs:
