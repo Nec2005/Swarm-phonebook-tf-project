@@ -22,7 +22,7 @@ services:
     deploy:
       mode: global
       update_config:
-          parallelism: 1
+          parallelism: 2
           delay: 5s
           order: start-first
     ports:
